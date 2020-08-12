@@ -47,6 +47,7 @@ public class ProductDetailsScreen extends BaseTest {
 
     // Click on Buy now
     public void clickBuynow() {
+        Utility.scrollDownTillElementFound(driver,productDetailsPageObjects.buynow);
         productDetailsPageObjects.buynow.click();
     }
 
